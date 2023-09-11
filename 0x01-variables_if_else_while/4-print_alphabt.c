@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Description: print alphapet in lowercase
+ * Description: Print all the letters except q and e
  *
  * Return: Always zero (success)
  */
