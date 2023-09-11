@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Description: flase or true validation
- *
- * Return : Always 0 (success)
+* main - entry point
+*
+* Description: True of false validation
+*
+* Return: always zero (success)
+*
 */
-
 int main(void)
 {
 	int n;
