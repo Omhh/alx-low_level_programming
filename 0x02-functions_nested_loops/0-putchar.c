@@ -1,17 +1,22 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - entry point
  *
- * Description: print alphapet in lowercase
+ * Description: print _putchar
  *
  * Return: Always zero (success)
  */
 
 int main(void)
 {
-	putchar('_');
-	printf("putchar\n");
+	char str[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ch++)
+		_putchar(str[ch]);
+	_putchar('\n');
 
 	return (0);
 }
