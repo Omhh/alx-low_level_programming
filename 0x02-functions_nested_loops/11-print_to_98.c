@@ -13,20 +13,13 @@ void print_to_98(int n)
 {
 	int a = n;
 
-	if (n <= 98)
-	{
-		_putchar(a + '0');
-		_putchar(',');
-		_putchar(' ');
-		a++;
-	}
-	else if (a >= 98)
-	{
-		_putchar(a + '0');
-		_putchar(',');
-		_putchar(' ');
-		a--;
-	}
+	if (n < 98)
+		for (; a < 98; a++)
+			printf("%d, ", a);
+
 	else
-		_putchar('\n');
+		for (; a > 98; a--)
+			printf("%d, ", a);
+	printf("98\n");
+
 }
