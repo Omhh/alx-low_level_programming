@@ -7,7 +7,7 @@
  * @a: checks input a
  * @b: checks input b
  *
- *
+ * Return: the multiplication
  */
 
 int mul(int a, int b)
