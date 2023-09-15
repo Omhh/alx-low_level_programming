@@ -11,7 +11,9 @@ void print_numbers(void)
 {
 	int n;
 
-	for (n = 48; n <= 57; n++)
-		_putcahr(n + '0');
-	return (0);
+	for (n = 0; n <= 9; n++)
+	{
+		_putchar(n + '0');
+	}
+	_putchar('\n');
 }
