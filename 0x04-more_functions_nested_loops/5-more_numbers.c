@@ -10,13 +10,19 @@
 
 void more_numbers(void)
 {
-	int line, n;
+	int line, n, m;
 
 	for (line = 0; line <= 9; line++)
 	{
 		for (n = 0; n <= 14; n++)
 		{
-			_putchar(n);
+			m = n;
+			if (m > 9)
+			{
+				_putchar(1 + '0');
+				m = n % 10;
+			}
+			_putchar(m + '0');
 		}
 		_putchar('\n');
 	}
