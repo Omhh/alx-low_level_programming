@@ -20,5 +20,5 @@ void print_rev(char *s)
 	{
 		_putchar(s[i]);
 	}
-	_putcahr('\n');
+	_putchar('\n');
 }
