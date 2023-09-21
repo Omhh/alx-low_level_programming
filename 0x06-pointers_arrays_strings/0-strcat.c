@@ -22,3 +22,4 @@ dest[a++] = src[b];
 
 return (dest);
 }
+
