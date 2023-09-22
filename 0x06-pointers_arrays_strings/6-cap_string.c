@@ -6,7 +6,7 @@
  * @c: char
  * Return: 1 if true, 0 if false
 */
-int isLower (char c)
+int isLower(char c)
 {
 return (c >= 97 && c <= 122);
 }
@@ -16,7 +16,7 @@ return (c >= 97 && c <= 122);
  * @c: char
  * Return: 1 if true, 0 if false
 */
-int isDelimiter (char c)
+int isDelimiter(char c)
 {
 int i;
 char delimiter[] = "\t\n,.!?\"[]{}";
