@@ -2,10 +2,9 @@
 
 /**
  * *_memcpy - copies memory area.
- * @*dest: momory area
- * @*src: source
+ * @dest: momory area
+ * @src: source
  * @n: length of src to be copied
- * 
  * Return: pointer dest
 */
 
