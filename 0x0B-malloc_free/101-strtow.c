@@ -39,7 +39,7 @@ char **w;
 
 if (str == NULL || *str == '\0')
 return (NULL);
-w = wrdcnt(str);
+n = wrdcnt(str);
 if (n == 1)
 return (NULL);
 w = (char **)malloc(n *sizeof(char *));
