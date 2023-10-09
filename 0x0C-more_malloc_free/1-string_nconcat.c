@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *string_nconcat - concatenates two strings.
+ * string_nconcat - concatenates two strings.
  * @s1: pointer to 1st string
  * @s2: pointer to 2nd string
  * @n: number of bytes
@@ -28,7 +28,7 @@ if (str == NULL)
 {
 return (NULL);
 }
-for (i = 0; s1[i] != '\0'; s1++)
+for (i = 0; s1[i] != '\0'; i++)
 str[i] = s1[i];
 for (j = 0; j < n; j++)
 {
