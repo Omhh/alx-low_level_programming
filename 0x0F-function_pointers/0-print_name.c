@@ -9,6 +9,6 @@
 
 void print_pname(char *name, void (*f)(char *))
 {
-if (name&& f)
+if (name && f)
 f(name);
 }
