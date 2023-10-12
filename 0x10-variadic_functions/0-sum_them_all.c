@@ -11,7 +11,7 @@
 int sum_them_all(const unsigned int n, ...)
 {
 int s = 0, i = n;
-va_list ap;
+__builtin_va_list ap;
 
 if (!n)
 return (0);
@@ -23,5 +23,3 @@ s += va_arg(ap, int);
 va_end(ap);
 return (s);
 }
-.
-...
