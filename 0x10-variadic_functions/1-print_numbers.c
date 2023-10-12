@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdio.h>
 
 /**
  * print_numbers - prints numbers with separators
@@ -14,12 +15,12 @@ int i = n;
 va_list ap;
 if (!n)
 {
-printf ("\n");
+printf("\n");
 return;
 }
 va_start (ap, n);
 while (i--)
-printf ("%d%s", va_arg(ap, int),
+printf("%d%s", va_arg(ap, int),
 i ? (separator ? separator : "") : "\n");
 va_end(ap);
 }
