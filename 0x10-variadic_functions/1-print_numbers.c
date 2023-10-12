@@ -18,7 +18,7 @@ if (!n)
 printf("\n");
 return;
 }
-va_start (ap, n);
+va_start(ap, n);
 while (i--)
 printf("%d%s", va_arg(ap, int),
 i ? (separator ? separator : "") : "\n");
